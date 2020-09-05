@@ -106,7 +106,7 @@ function evenFinder(nums){
   }
 return arr;
 }
-
+//
 
 
 

@@ -13,7 +13,12 @@
   Give it a key of name with the value being your name, and another key of age with the value being your age.
   Then alert your name using dot notation.
 */
+var me = {
+  name: 'Ellie',
+  age: 40
+}
 
+//alert(me.name)
 //Code here
 
 ////////// PROBLEM 2 //////////
@@ -22,7 +27,14 @@
   Make a 'favoriteThings' object that contains the following keys: band, food, person, book, movie, holiday.
   Have the values to those keys be strings that are equal to your favorite thing in that category.
 */
-
+var favoriteThings = {
+  band: 'Maroon 5',
+  food: 'Italian',
+  person: 'Xander',
+  book: 'The Shack',
+  movie: 'Eat Pray love',
+  holiday: 'Halloween'
+}
 //Code here
 
 /*
@@ -31,14 +43,16 @@
 */
 
 //Code here
-
+favoriteThings.car = 'honda';
+favoriteThings.brand = 'freepeople';
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
   and change the value of the book key in your favoriteThings object to be 'Harry Potter'.
 */
 
 //Code here
-
+favoriteThings.food = 'Chicken Nuggets';
+favoriteThings.book =  'Harry Potter';
 ////////// PROBLEM 3 //////////
 
 /*
@@ -50,13 +64,18 @@
 */
 
 //Code here
+var backPack = {}
+let item = 'firstPocket';
+
+backPack['firstPocket'] = 'chapstick';
+backPack.color = 'black';
 
 /*
   After you do the above, alert your entire backPack object.
 */
 
 //Code here
-
+// No it breaks Jasmine
 /*
 You probably noticed that it just alerted [object Object].
 Alerting to see the data in your Object doesn't work so well.
@@ -85,6 +104,10 @@ var user2 = {
 */
 
 //Code Here
+
+user2.name = 'Bryan G. Smith';
+user2.email = 'bryan.smith@decmounta.in'
+
 
 /////////////////////// EXTRA PRACTICE PROBLEMS BELOW ////////////////////
 ////////// MOVE ONTO NEXT SECTION BEFORE WORKING ON THESE ////////////////
