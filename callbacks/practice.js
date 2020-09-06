@@ -129,19 +129,20 @@ contains(names, 'Colt', function(result){
 */
 
 //Code Here
-function uniq(arr, cb){
+function uniq(arr, cb){  
   for(let i = 0; i < arr.length; i++){
     console.log('outer loop', i)
     for(let j = i + 1; j < arr.length; j++){
       console.log('inner loop', j)
       if (arr[i] === arr [j]){
-        arr.splice(j, 1) 
+        arr.splice(j, 1)
         
 }
-    }
+    }  
+  }
 return cb(arr);
   }
-}
+
 
 // Do not edit the code below.
 uniq(names, function(uniqArr){
